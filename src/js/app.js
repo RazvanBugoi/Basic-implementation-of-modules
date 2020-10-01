@@ -6,4 +6,4 @@ let multiply = document.getElementById('multiply');
 let no1 = document.getElementById('number-1');
 let no2 = document.getElementById('number-2')
 
-sum.onclick = sum()
+sum.onclick = sum(no1.value, no2.value);
