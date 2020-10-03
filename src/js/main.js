@@ -1,5 +1,5 @@
 function sum(a, b) {
-    return a + b;
+    console.log(Number(a) + Number(b));
 }
 
 function substract(a, b) {
