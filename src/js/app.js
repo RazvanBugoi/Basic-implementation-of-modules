@@ -15,3 +15,8 @@ differenceResult.onclick = function findTheDifference() {
     let result = difference(firstNumber.value, secondNumber.value);
     document.getElementById('substract-result').innerText = `The result is ${result}`;
 }
+
+multiplyResult.onclick = function multiplyNumbers() {
+    let result = multiply(firstNumber.value, secondNumber.value);
+    document.getElementById('multiply-result').innerText = `The result is ${result}`;
+}
