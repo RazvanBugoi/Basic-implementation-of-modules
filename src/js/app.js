@@ -8,7 +8,7 @@ let secondNumber = document.getElementById('number-2')
 
 sumResult.onclick = function sumNumbers() {
     let result = sum(firstNumber.value, secondNumber.value);
-    document.getElementById('sum-result').innerHTML = `The result is ${sum(firstNumber.value, secondNumber.value)}`;
+    document.getElementById('sum-result').innerText = `The result is ${result}`;
 }
 
 console.log(firstNumber.value)
