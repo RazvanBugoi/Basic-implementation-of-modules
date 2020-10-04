@@ -1,4 +1,4 @@
-import { sum, substract, multiply } from './main.js'
+import { sum, difference, multiply } from './main.js'
 
 let sumResult = document.getElementById('sum');
 let substractResult = document.getElementById('substract');
@@ -11,4 +11,7 @@ sumResult.onclick = function sumNumbers() {
     document.getElementById('sum-result').innerText = `The result is ${result}`;
 }
 
-console.log(firstNumber.value)
+substractResult.onclick = function findTheDifference() {
+    let result = difference(firstNumber.value, secondNumber.value);
+    document.getElementById('substract-result').innerText = `The result is ${result}`;
+}
